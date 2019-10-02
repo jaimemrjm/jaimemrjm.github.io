@@ -49,6 +49,15 @@ X92 modified remote with longpress buttons, thanks to boot2k3 from [libreelec fo
 
 Check the [Kodi keyboard table](https://kodi.wiki/view/Keyboard_controls) for advanced control and monitoring when you plug a physical keyboard. Specially useful are the [codec info](https://kodi.wiki/view/Codecinfo) or *PlayerProcessInfo* (only available from Kodi 18). Check also the [shortcuts differences](https://forum.kodi.tv/showthread.php?tid=306387&pid=2520469#pid2520469) between Kodi 17 and 18.
 
+## Hardware Video Acceleration
+
+Navigate to the Kodi menu: **Settings -> Player -> Videos -> [Render method]**:
+
+I prefer:
+- Accelerate MPEG4: [Always]
+- Accelerate MPEG2: [Always]
+
+
 ## How to update
 
 Leave the `.tar` file in the `/storage/.update` folder and reboot. [1](https://discourse.coreelec.org/t/how-to-update-coreelec/1037)
