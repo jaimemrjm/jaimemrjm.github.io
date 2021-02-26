@@ -57,6 +57,13 @@ I prefer:
 - Accelerate MPEG4: [Always]
 - Accelerate MPEG2: [Always]
 
+## Enable whitelist resolution and refresh rate
+
+Navigate to the Kode menu: **Settings -> System -> Display**:
+
+In the [whitelist](https://kodi.wiki/view/Settings/System/Display#Whitelist), I would prefer to choose all resolutions with 60/50/23.9 Hz for TV.
+
+Note: this whitelist menu is only available in Expert settings level.
 
 ## How to update
 
