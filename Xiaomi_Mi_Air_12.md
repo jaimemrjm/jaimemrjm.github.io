@@ -1,3 +1,10 @@
+# Hardware overview
+
+- CPU Intel m3-7Y30
+- 4 GB RAM soldered in motherboard
+- Samsung MZNTY128 disk
+- 12.5 inch display FullHD
+
 # Linux distribution
 
 I have choosed KDE Neon, but any modern Ubuntu-based distro should works fine. Manjaro and Arch Linux are reported to work fine also.
