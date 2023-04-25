@@ -27,5 +27,5 @@ MesonIR is working fine if you use the files from H96max x3 in the [repo](https:
 
 ## Reference
 
-- https://discourse.coreelec.org/t/h96-max-x4-soc-s905x4-2g-16-1gbe-wifi-2-4ghz-bt/19372
-- https://forums.plex.tv/t/plexmod-for-kodi-18-19-20/481208
+- [H96 MAX X4 - Coreelec forum](https://discourse.coreelec.org/t/h96-max-x4-soc-s905x4-2g-16-1gbe-wifi-2-4ghz-bt/19372)
+- [Plex addon for modern Kodi versions](https://forums.plex.tv/t/plexmod-for-kodi-18-19-20/481208)
