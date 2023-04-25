@@ -72,9 +72,3 @@ Leave the `.tar` file in the `/storage/.update` folder and reboot. [1](https://d
 ## How to get WLAN link speed
 
     iw dev wlan0 link
-
-## Recommended repo addons
-
-- [Thoradia](https://github.com/thoradia/thoradia): p2p network software like Transmission, qBittorrent, Jackett, Medusa, Sonarr, Radarr, etc.
-- [PlexKodiConnect](https://github.com/croneter/PlexKodiConnect): Plex integration in Kodi done right
-
