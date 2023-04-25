@@ -30,9 +30,12 @@ If keyboard or left mouse button doesn't work fine, restart from advanced Startu
 
 # Linux
 
-# Intel Iris Xe GPU
+## Intel Iris Xe GPU
 
 Note that the GPU is *Gen12* even the CPU is Intel 11th Gen (Tiger Lake). It supports GuC and HuC. The best video player to get hardware video acceleration in my test has been Totem from Gnome. I recommend the command `intel_gpu_top` to verify everything is fine.
+
+Firefox tip: Enable "media.ffmpeg.vaapi.enabled" in `about:config` to get VA-API acceleration.
+
 
 # References
 1. [Laptopmedia - Hardware review](https://laptopmedia.com/es/review/acer-aspire-5-a514-54-review-budget-tiger-lake-laptops-are-coming/)
