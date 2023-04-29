@@ -14,9 +14,7 @@ I have choose `sc2_s905x4_2g.dtb` device tree file for the `dtb.img`.
 
 ## LCD Display
 
-[Pending to check]
-
-Frontal LCD Display should work like in Android OS but it requires two steps [2](https://forum.libreelec.tv/thread/11736-led-vfd-displays-in-libreelec/):
+Frontal LCD Display works like in Android OS but it requires two steps [2](https://forum.libreelec.tv/thread/11736-led-vfd-displays-in-libreelec/):
 1. Download the file `h96-max-vfd.conf` from [vfd-configurations repo](https://github.com/arthur-liberman/vfd-configurations) and copy to the path `/storage/.config/vfd.conf`.
 2. Install OpenVFD addon from Coreelec official addon repo (available in the Services section).
 
