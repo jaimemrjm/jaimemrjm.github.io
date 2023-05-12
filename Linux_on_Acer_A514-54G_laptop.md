@@ -1,3 +1,5 @@
+# Linux on my Acer A514-54G laptop
+
 # Hardware
 
 - Proccessor: Intel® Core™ i5-1135G7 Quad-core 2.40 GHz
