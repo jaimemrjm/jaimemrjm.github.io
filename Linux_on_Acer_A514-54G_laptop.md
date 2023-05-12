@@ -38,6 +38,9 @@ Note that the GPU is *Gen12* even the CPU is Intel 11th Gen (Tiger Lake). It sup
 
 Firefox tip: Enable "media.ffmpeg.vaapi.enabled" in `about:config` to get VA-API acceleration.
 
+## Intel HDA Soundcard - Realtek ALC255 Codec
+
+Intenal microphone just works but external microphone (headphone mini-jack) doesn't work for me.
 
 # References
 1. [Laptopmedia - Hardware review](https://laptopmedia.com/es/review/acer-aspire-5-a514-54-review-budget-tiger-lake-laptops-are-coming/)
