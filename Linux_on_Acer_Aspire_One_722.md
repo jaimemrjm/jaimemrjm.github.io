@@ -7,6 +7,7 @@ I bought a DDR3 4GB so-dimm module to replace the 2GB one. The two pieces from l
 
 ## (Xubuntu) Linux tips
 
+### CPU "turbo" mode
 Install the recommended requirements:
 
 `sudo apt install build-essential git`
@@ -23,6 +24,29 @@ cd c60-tweak
 sudo ./c60-tweak.sh 
 ```
 The speed improvement is quite noticiable.
+
+### GPU
+
+The Radeon HD 6290 gpu with the `radeon` and `amdgpu` linux drivers only supports Hardware decoding for MPEG2, VC1 and H.264 (AVC) video codecs, according `vainfo` command:
+```
+k$ vainfo
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/r600_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+vainfo: VA-API version: 1.14 (libva 2.12.0)
+vainfo: Driver version: Mesa Gallium driver 22.2.5 for AMD PALM (DRM 2.50.0 / 5.19.0-41-generic, LLVM 15.0.6)
+vainfo: Supported profile and entrypoints
+      VAProfileMPEG2Simple            :	VAEntrypointVLD
+      VAProfileMPEG2Main              :	VAEntrypointVLD
+      VAProfileVC1Simple              :	VAEntrypointVLD
+      VAProfileVC1Main                :	VAEntrypointVLD
+      VAProfileVC1Advanced            :	VAEntrypointVLD
+      VAProfileH264ConstrainedBaseline:	VAEntrypointVLD
+      VAProfileH264Main               :	VAEntrypointVLD
+      VAProfileH264High               :	VAEntrypointVLD
+      VAProfileNone                   :	VAEntrypointVideoProc
+```
 
 ## Xubuntu tips
 
@@ -41,4 +65,5 @@ Logoff and login again
 
 ## Reference
 
-- https://forum.puppylinux.com/viewtopic.php?t=236
+- [Puppy Linux forums](https://forum.puppylinux.com/viewtopic.php?t=236)
+- [Ubuntu Wiki](https://help.ubuntu.com/community/AspireOne722)
