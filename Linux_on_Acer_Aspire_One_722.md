@@ -48,6 +48,8 @@ vainfo: Supported profile and entrypoints
       VAProfileNone                   :	VAEntrypointVideoProc
 ```
 
+Install the package `ubuntu-restricted-extras` to get H.264 hardware acceleration. The best performance for `mpv` videoplayer I have found is with the parameters: `--vo=vdpau --hwdec=vdpau` 
+
 ## Xubuntu tips
 
 ### CPU Freq applet for XFCE Desktop
