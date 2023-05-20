@@ -40,7 +40,11 @@ Firefox tip: Enable "media.ffmpeg.vaapi.enabled" in `about:config` to get VA-API
 
 ## Intel HDA Soundcard - Realtek ALC255 Codec
 
-Intenal microphone just works but external microphone (headphone mini-jack) doesn't work for me.
+Intenal microphone just works but external microphone (headphone mini-jack) doesn't work for me. I have tried this config:
+```
+❯ cat /etc/modprobe.d/alsa-base.conf
+options snd-hda-intel model=alc255-acer
+```
 
 # References
 1. [Laptopmedia - Hardware review](https://laptopmedia.com/es/review/acer-aspire-5-a514-54-review-budget-tiger-lake-laptops-are-coming/)
