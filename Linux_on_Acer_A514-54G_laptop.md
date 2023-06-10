@@ -38,13 +38,16 @@ Note that the GPU is *Gen12* even the CPU is Intel 11th Gen (Tiger Lake). It sup
 
 - Firefox tip: Enable "media.ffmpeg.vaapi.enabled" in `about:config` to get VA-API acceleration.
 
-- Enable the GUC, HUC and Framebuffer compression features:
+- Enable the GUC, HUC and Framebuffer compression features
+
 Edit the file `/etc/modprobe.d/i915.conf` with the content:
 ```
 options i915 enable_guc=3
 options i915 enable_fbc=1
 ```
-and update your intramfs. Depending your linux distribution ([Fedora](https://discussion.fedoraproject.org/t/intel-graphics-best-practices-and-settings-for-hardware-acceleration/69944#h-4-enable-intel-guc-and-huc-and-framebuffer-compression-5) example, [Ubuntu](https://askubuntu.com/a/897330/24536) example). Whatever linux distro you use, is interesting to check the [Arch Linux wiki](https://wiki.archlinux.org/title/Intel_graphics#Enable_GuC_/_HuC_firmware_loading).
+and update your intramfs. Depending your linux distribution ([Fedora](https://discussion.fedoraproject.org/t/intel-graphics-best-practices-and-settings-for-hardware-acceleration/69944#h-4-enable-intel-guc-and-huc-and-framebuffer-compression-5) example, [Ubuntu](https://askubuntu.com/a/897330/24536) example).
+
+Whatever linux distro you use, is interesting to check the [Arch Linux wiki](https://wiki.archlinux.org/title/Intel_graphics#Enable_GuC_/_HuC_firmware_loading).
 
 ## Intel HDA Soundcard - Realtek ALC255 Codec
 
