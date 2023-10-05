@@ -66,3 +66,4 @@ options snd-hda-intel model=alc255-acer
 5. [Intel Graphics - Best practices and settings for hardware acceleration?](https://discussion.fedoraproject.org/t/intel-graphics-best-practices-and-settings-for-hardware-acceleration/69944)
 6. [Arch wiki - Hardware video acceleration - Verification](https://wiki.archlinux.org/title/Hardware_video_acceleration#Verification)
 7. [skylake-tuning-linux.md gist](https://gist.github.com/Brainiarc7/aa43570f512906e882ad6cdd835efe57)
+8. [Restore Windows after Linux install](https://community.acer.com/en/discussion/comment/1033795/#Comment_1033795)
